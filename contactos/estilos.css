@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-image: url("descargar.jpg");
+    margin: 0;
+}
+
+.enlace_menu{
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('planets.jpg');
+    padding: 1rem;
+    width: 20vmin;
+    height: 5vmin;
+    text-decoration: none;
+}
+
+
+/* aplicar al archivo "administrar.php"  */
+
+/*Realizar una tabla responsive es una forma*/
+
+.table-container{
+    overflow-y: auto;
+}
+
+.table{
+    width: 100%;
+    empty-cells: hide; /* no funciona si esta el border-collapse */
+}
+
+.table_head{
+    text-align: center;
+    border:1px solid black;
+    border-spacing: 10px;
+}
+
+.table, .table_data{
+    border:1px solid black;
+    border-spacing: 10px;
+}
+
+.table_data{
+    background-color: cornflowerblue;
+}
+
+.btn_acciones{
+    margin-right: 1rem;
+    text-align: center;
+}   
